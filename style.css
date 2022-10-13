@@ -169,6 +169,7 @@ button {
 .container-cards {
   display: flex;
   flex-direction: column;
+  gap: 2.7rem;
   max-width: 99rem;
   align-items: center;
   margin: 0 auto;
