@@ -79,10 +79,9 @@ nav ul li a {
 #news {
   margin: 4rem auto;
   padding: 0 1rem;
-  max-width: 99rem;
-  min-width: 30rem;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 #news h2 {
@@ -98,6 +97,8 @@ nav ul li a {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  max-width: 99rem;
+  min-width: 30rem;
   gap: 2.8rem;
 }
 
@@ -235,6 +236,7 @@ button {
 }
 .card-form {
   min-width: 30rem;
+  max-width: 79rem;
   background-color: var(--bg-light-grey);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   border: none;
@@ -242,16 +244,26 @@ button {
   padding: 5.2rem 1.0rem 2.2rem;
 }
 
+form {
+  max-width: 64.2rem;
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
 .input-wrapper input {
   width: 100%;
   height: 5rem;
   font-size: 1.6rem;
   line-height: 2.4rem;
-
   border: 1px solid var(--color-grey);
   border-radius: 0.4rem;
   padding: 1.3rem 2.2rem;
-  margin-bottom: 2rem;
+
 }
 
 .input-wrapper input::placeholder {
@@ -281,6 +293,15 @@ button {
   margin-bottom: 4.7rem;
 }
 
+
+.button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  margin: 0 auto;
+}
+
 .button input {
   width: 24.4rem;
   height: 6.7rem;
@@ -291,8 +312,9 @@ button {
   line-height: 2.7rem;
   color: var(--color-white);
   border: none;
-  margin: 1.0rem 1.8rem;
+
 }
+
 .button input:hover {
   background: var(--color-white);
   border: 2px solid var(--color-pink);
@@ -386,15 +408,31 @@ footer p {
     margin: 3.9rem 0 6.1rem;
   }
 
+  .input-wrapper {
+    margin-bottom: 2.1rem;
+  }
+
   .card-form {
-    max-width: 79rem;
     padding: 5.2rem 7.4rem;
   }
 
-  .button input, .button input:hover {
+  .platform {
+    margin-bottom: 3rem;
+  }
+  
+  form {
+    width: 64.2rem;
+  }
+
+  .checkbox-news {
+    margin-bottom: 3.8rem;
+  }
+
+  .button {
     flex-direction: row;
     justify-content: center;
     gap: 5.2rem;
+    margin: 0 auto;
   }
 
   footer {
