@@ -14,7 +14,7 @@ Foi utilizado no projeto:
 - Variáveis;
 - Media queries;
 
-[Clique aqui para acessar] (https://gisellebm.github.io/-DevSuperior-modulo3-desafio-responsividade/)
+[Clique aqui para acessar] (https://gisellebm.github.io/DevSuperior-modulo3-desafio-responsividade/)
 
 ## Tecnologias
 
